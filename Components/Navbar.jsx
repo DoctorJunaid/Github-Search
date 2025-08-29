@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#161b22] border-b border-gray-700 px-7 py-5">
+    <nav className="bg-[#161b22] border-b border-gray-700 px-7 py-5 w-full fixed top-0">
       <div className="flex justify-between items-center">
 
         <h3 className="text-white font-semibold text-lg flex justify-center align-baseline gap-1"><Github /> Github-Search</h3>
