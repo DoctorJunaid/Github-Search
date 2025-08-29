@@ -48,9 +48,11 @@ const Userscard = ({ cardusername, Bio, location, image, Followers, Following, j
         <div className="bg-[#233648] text-2xl sm:text-4xl p-2 rounded-xl">
           <Users />
         </div>
-        <p>
-          {Following} Following • {Followers} Followers
-        </p>
+       <p className="flex flex-wrap gap-2">
+  <span>{Following} Following</span>
+  <span>{Followers} Followers</span>
+</p>
+
       </div>
     </div>
   )
