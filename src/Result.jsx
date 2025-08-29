@@ -31,7 +31,7 @@ const Result = ({username}) => {
           Followers = {data.followers}
           Following = {data.following}
           join = {data.created_at}
-          visit = {data.url}
+          visit = {data.html_url}
           />
         ): (
         <h1 className='text-center pt-9'>No User Found</h1>
